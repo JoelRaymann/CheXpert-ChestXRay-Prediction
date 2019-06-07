@@ -90,14 +90,14 @@ Coming Soon.
 # Results:
 Our Previous results are as follows:
 | Model Name |	Dataset	|	Methodology	| Train Accuracy (20 Epochs) | Test Accuracy (20 Epochs) | Remarks |
-|:-----------|:---------|:---------------------------------------|:---------|:---------|:--------------------------------|
-|DenseNet - 121	|NIH DATASET|	MultiLabel|	83% (Average)|	81% (Average)|	Heavy class imbalance towards “No Findings”|
-|SE-DenseNet-121|	NIH DATASET|	Multilabel|	85%(Average)|	81.3%(Average)|	Heavy class imbalance towards “No Findings”|
-|SE-DenseNet-121 with Focal Loss|	NIH DATASET	|MultiLabel	|89%(Average)|	82%(Average)|	Heavy class imbalance towards “No Findings”. Even Focal Loss can’t fix this problem|
-|DenseNet – 121 |	NIH DATASET|	Binary Classification ;0 => not infected; 1 => infected |69%	|68%	|Problem is with dataset. Better dataset needed|
-|SE-DenseNet – 121|	NIH DATASET	|Binary Classification; 0 => not infected;1 => infected	|70%	|68.467%	|Problem is with dataset. Better dataset needed|
-|NasNet Mobile – 5M params|	NIH DATASET	| Binary Classification; 0 => not infected;1 => infected	|73% |	72.7%	|Problem is with dataset. Better dataset needed. Small improvement due to better model|
-|NasNet Large – 88M params|	NIH DATASET	| Binary Classification; 0 => not infected ;1 => infected	|78%	|75.65%|	Overfitting Problem Noted. Implies nothing can be done. Problem Classified as A.I. Hard|
+| :----------- | :--------- | :--------------------------------------- | :--------- | :--------- | :-------------------------------- |
+| DenseNet - 121 | NIH DATASET | MultiLabel | 83% (Average) | 1% (Average) | Heavy class imbalance towards “No Findings” |
+| SE-DenseNet-121 | NIH DATASET | Multilabel |	85%(Average) | 81.3%(Average) |	Heavy class imbalance towards “No Findings” |
+| SE-DenseNet-121 with Focal Loss |	NIH DATASET	| MultiLabel | 89%(Average) | 82%(Average) | Heavy class imbalance towards “No Findings”. Even Focal Loss can’t fix this problem |
+| DenseNet – 121 | NIH DATASET | Binary Classification ;0 => not infected; 1 => infected | 69% | 68% | Problem is with dataset. Better dataset needed |
+| SE-DenseNet – 121 | NIH DATASET | Binary Classification; 0 => not infected;1 => infected	| 70% | 68.467% | Problem is with dataset. Better dataset needed |
+| NasNet Mobile – 5M params | NIH DATASET | Binary Classification; 0 => not infected;1 => infected	| 73% |	72.7%	| Problem is with dataset. Better dataset needed. Small improvement due to better model |
+| NasNet Large – 88M params | NIH DATASET | Binary Classification; 0 => not infected ;1 => infected	| 78%	| 75.65% | Overfitting Problem Noted. Implies nothing can be done. Problem Classified as A.I. Hard |
 
 # LICENSE
 BSD 3-Clause License
