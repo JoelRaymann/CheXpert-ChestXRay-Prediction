@@ -93,7 +93,7 @@ Our Previous results with NIH dataset are as follows:
 
 | Model Name |	Dataset	|	Methodology	| Train Accuracy (20 Epochs) | Test Accuracy (20 Epochs) | Remarks |
 | :----------- | :--------- | :--------------------------------------- | :--------- | :--------- | :-------------------------------- |
-| DenseNet - 121 | NIH DATASET | MultiLabel | 83% (Average) | 1% (Average) | Heavy class imbalance towards “No Findings” |
+| DenseNet - 121 | NIH DATASET | MultiLabel | 83% (Average) | 82% (Average) | Heavy class imbalance towards “No Findings” |
 | SE-DenseNet-121 | NIH DATASET | Multilabel |	85%(Average) | 81.3%(Average) |	Heavy class imbalance towards “No Findings” |
 | SE-DenseNet-121 with Focal Loss |	NIH DATASET	| MultiLabel | 89%(Average) | 82%(Average) | Heavy class imbalance towards “No Findings”. Even Focal Loss can’t fix this problem |
 | DenseNet – 121 | NIH DATASET | Binary Classification ;0 => not infected; 1 => infected | 69% | 68% | Problem is with dataset. Better dataset needed |
