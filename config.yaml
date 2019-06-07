@@ -1,0 +1,8 @@
+no_of_epochs: 20
+learning_rate: 0.001
+batch_size: 16
+gpus: 2
+train_data_path: "./dataset/train_clean.csv"
+val_data_path: "./dataset/valid_clean.csv"
+test_data_path: "./dataset/valid_clean.csv"
+model_name: "cheXpert_densenet121"

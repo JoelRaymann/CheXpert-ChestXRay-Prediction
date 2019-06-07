@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+h5py
+csv
+matplotlib
+tensorflow==2.0.0a
+argparse

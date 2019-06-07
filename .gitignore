@@ -1,0 +1,8 @@
+# Files
+*.ipynb
+
+# Folders
+.ipynb_checkpoints/
+models/
+output/
+dataset/
