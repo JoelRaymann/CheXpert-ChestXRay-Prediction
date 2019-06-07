@@ -104,7 +104,7 @@ Our Previous results with NIH dataset are as follows:
 # LICENSE
 BSD 3-Clause License
 
-Copyright (c) 2019, Joel Raymann
+Copyright (c) 2019, Joel Raymann, Harikrishnan V. S
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
