@@ -88,12 +88,16 @@ python train_model.py -L <load model file path> -R <resume epoch> -W 1 -C <confi
 Coming Soon.
 
 # Results:
+
+
 test Table:<br>
 | E | Pee |
 | --- | --- |
 | 1 | joel |
 <br>
 Our Previous results are as follows:
+
+
 | Model Name |	Dataset	|	Methodology	| Train Accuracy (20 Epochs) | Test Accuracy (20 Epochs) | Remarks |
 | ----------- | --------- | --------------------------------------- | --------- | --------- | -------------------------------- |
 | DenseNet - 121 | NIH DATASET | MultiLabel | 83% (Average) | 1% (Average) | Heavy class imbalance towards “No Findings” |
